@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstApp.Pages.AccauntPage"
+             Title="Аккаунт">
+    <ContentPage.Content>
+        <StackLayout Padding="12">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Id: "/>
+                <Label x:Name="LblID"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Login: "/>
+                <Label x:Name="LblLogin" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Password: "/>
+                <Label x:Name="LblPassword" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Email: "/>
+                <Label x:Name="LblEmail" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Phone: "/>
+                <Label x:Name="LblPhone" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Полных лет: "/>
+                <Label x:Name="LblLet" />
+            </StackLayout>
+            <Button Text="Редактировать профиль" x:Name="BtnEdit" Clicked="BtnEdit_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstApp.Pages.ServiceEditPage"
+             Title="Редактирование услуги">
+    <ContentPage.Content>
+        <StackLayout Padding="12" Orientation="Vertical">
+            <Editor Placeholder="Введите услугу" x:Name="TxtTitle"/>
+            <Button Text="Сохранить" x:Name="BtnSave" Clicked="BtnSave_Clicked"/>
+        </StackLayout> 
+    </ContentPage.Content>
+</ContentPage>
